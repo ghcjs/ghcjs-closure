@@ -18,7 +18,11 @@ data-files:          closure-compiler/COPYING
                      closure-library/README
                      closure-library/pkg/*.pkg
 
+source-repository head
+  type:     git
+  location: https://github.com/ghcjs/ghcjs-closure
+
 library
   exposed-modules:   Closure.Paths
   other-modules:     Paths_ghcjs_closure
-  build-depends:       base ==4.5.*, filepath
+  build-depends:     base >= 4 && < 5

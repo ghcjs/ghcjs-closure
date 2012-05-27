@@ -35,7 +35,6 @@ decodeUnderscore (x:xs)       = x   : decodeUnderscore xs
 decodeUnderscore []           = []
 
 copyClosure pkg_descr lbi verbosity = do
-  putStrLn "copying closure"
   let src         = "lib/closure-library/pkg"
       dat         = datadir $ absoluteInstallDirs pkg_descr lbi NoCopyDest
       destination = dat </> "closure-library"
