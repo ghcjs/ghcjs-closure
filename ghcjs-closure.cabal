@@ -20,7 +20,7 @@ data-files:          closure-compiler/COPYING
 
 source-repository head
   type:     git
-  location: https://github.com/ghcjs/ghcjs-closure
+  location: https://github.com/ghcjs/ghcjs-closure.git
 
 library
   exposed-modules:   Closure.Paths
