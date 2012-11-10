@@ -1,0 +1,7 @@
+language: haskell
+
+notifications:
+  irc:
+    channels: "irc.freenode.net#ghcjs"
+  email: true
+
